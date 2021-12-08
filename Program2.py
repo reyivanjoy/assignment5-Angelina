@@ -1,15 +1,15 @@
 print("Input Three Numbers")
-a = int(input("First Number: "))
-b = int(input("Second Number: "))
-c = int(input("Third Number: "))
-if a < b and a < c:
-    print(f"{a} is the lowest number")
+firstNumber = int(input("First Number: "))
+secondNumber = int(input("Second Number: "))
+thirdNumber = int(input("Third Number: "))
+if firstNumber < secondNumber and firstNumber < thirdNumber:
+    print(f"{firstNumber} is the lowest number")
 else:
-    if b < a and b < c:
-        print(f"{b} is the lowest number")
+    if secondNumber < firstNumber and secondNumber < thirdNumber:
+        print(f"{secondNumber} is the lowest number")
     else:
-        if c < a and c < a:
-            print(f"{c} is the lowest number")
+        if thirdNumber < firstNumber and thirdNumber < secondNumber:
+            print(f"{thirdNumber} is the lowest number")
         else:
             print("There is no lowest number")
  
